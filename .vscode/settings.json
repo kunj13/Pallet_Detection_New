@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kunj/pallet_detect_ws/install/my_package/lib/python3.8/site-packages",
+        "/home/kunj/ros702_ws/install/enpm702_msgs/lib/python3.8/site-packages",
+        "/home/kunj/new_ws/install/your_package_name/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kunj/pallet_detect_ws/install/my_package/lib/python3.8/site-packages",
+        "/home/kunj/ros702_ws/install/enpm702_msgs/lib/python3.8/site-packages",
+        "/home/kunj/new_ws/install/your_package_name/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}

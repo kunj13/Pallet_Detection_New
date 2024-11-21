@@ -51,9 +51,9 @@ setup(
     ],
     install_requires=['setuptools'],  # This remains for required Python packages
     zip_safe=True,
-    maintainer='Your Name',
-    maintainer_email='your_email@example.com',
-    description='A ROS2 Python package',
+    maintainer='Kunj Golwala',
+    maintainer_email='kunjgolwala13@gmail.com',
+    description='A ROS2 Python package for pallet detection and segmentation',
     license='License Declaration',
     entry_points={
         'console_scripts': [

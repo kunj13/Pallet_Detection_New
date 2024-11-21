@@ -20,6 +20,9 @@ setup(
         ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (package_name, ['my_package/GroundingDINO_SwinT_OGC.py']),
+        (package_name, ['my_package/initial_data_processing_node.py']),
+        (package_name, ['my_package/segment_node.py']),
+        (package_name, ['my_package/yolo_inference_node.py']),
         ('share/my_package/config', [
         'config/groundingdino_swint_ogc.pth',
         ]),

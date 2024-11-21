@@ -19,6 +19,8 @@ print("YOLOv5 module imported successfully!")
 # from your_package_name.yolov5.models.common import DetectMultiBackend
 from yolov5.models.common import DetectMultiBackend
 from yolov5.utils.torch_utils import select_device
+from yolov5.utils.general import non_max_suppression
+
 
 print("DetectMultiBackend and select_device imported successfully!")
 

@@ -23,12 +23,12 @@ setup(
         (package_name, ['my_package/initial_data_processing_node.py']),
         (package_name, ['my_package/segment_node.py']),
         (package_name, ['my_package/yolo_inference_node.py']),
-        ('share/my_package/config', [
-        'config/groundingdino_swint_ogc.pth',
-        ]),
-        (os.path.join('share', package_name, 'config'), [
-        'config/segformer.b3.ade.pth',  # Add this line
-        ]),
+        # ('share/my_package/config', [
+        # 'config/groundingdino_swint_ogc.pth',
+        # ]),
+        # (os.path.join('share', package_name, 'config'), [
+        # 'config/segformer.b3.ade.pth',  # Add this line
+        # ]),
         ('lib/'+ package_name+ '/yolov5', [
             os.path.join(package_name, 'yolov5/export.py'),
         ]),
